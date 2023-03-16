@@ -56,27 +56,6 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-# group :development, :test do
-#   gem 'active_record_query_trace'
-#   gem 'binding_of_caller'
-#   gem 'brakeman'
-#   gem 'derailed_benchmarks'
-#   gem 'factory_bot_rails'
-#   gem 'faker'
-#   # gem 'isolator'
-#   gem 'memory_profiler',             require: false
-#   gem 'pry-nav'
-#   gem 'pry-rails'
-#   gem 'rspec-rails'
-#   gem 'rswag-specs'
-#   gem 'rubocop',                  require: false
-#   gem 'rubocop-performance',      require: false
-#   gem 'rubocop-rails',            require: false
-#   gem 'rubocop-rspec',            require: false
-#   gem 'singed'
-#   gem 'spring-commands-rspec'
-# end
-
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   # gem 'web-console'
@@ -95,23 +74,3 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
-
-# group :test do
-#   gem 'capybara'
-#   gem 'elasticsearch-extensions'
-#   gem 'factory_trace'
-#   gem 'fuubar'
-#   gem 'json_spec'
-#   gem 'oink', require: false
-#   gem 'rack-test', require: 'rack/test'
-#   gem 'rails-controller-testing'
-#   gem 'rspec_junit_formatter'
-#   gem 'rspec-retry'
-#   gem 'shoulda-matchers'
-#   gem 'simplecov', require: false
-#   gem 'stub_env'
-#   gem 'super_diff'
-#   gem 'test-prof'
-#   gem 'vcr'
-#   gem 'webmock'
-# end
